@@ -11,3 +11,11 @@
 .nav-link:active {
     color: green;
 }
+
+/* single item carousel */
+.carousel-img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
