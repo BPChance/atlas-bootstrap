@@ -48,11 +48,65 @@
             </div>
         </section>
         <main>
-            <section id="2000s">
-                <!-- 2000s content here -->
-            </section>
-            <section id="2010s">
-                <!-- 2010s content here -->
+            <section id="2000s" class="container-fluid mt-0" style="background: url('https://wallpaperaccess.com/full/2341040.jpg') center/cover; padding: 50px; color: white; position: relative;">
+                <!-- transparent dark background for 2000s bg image -->
+                <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 0;"></div>
+                <div style="position: relative; z-index: 1;">
+                    <h2>2000s: The Rise of Hip Hop</h2>
+                    <p>Explore the influential genres, trends, and artists that defined the 2000s.</p>
+                    <!-- dropdown for the 2000s -->
+                    <div class="dropdown mb-3">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdown2000s" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Explore the 2000s
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdown2000s">
+                            <a class="dropdown-item" data-toggle="collapse" href="#content2000sArtists" role="button" aria-expanded="false" aria-controls="content2000sArtists">Popular Artists</a>
+                            <a class="dropdown-item" data-toggle="collapse" href="#content2000sGenres" role="button" aria-expanded="false" aria-controls="content2000sGenres">Genres</a>
+                            <a class="dropdown-item" data-toggle="collapse" href="#content2000sTrends" role="button" aria-expanded="false" aria-controls="content2000sTrends">Trends</a>
+                        </div>
+                    </div>
+                    <!-- dropdown content sections -->
+                    <div class="collapse" id="content2000sArtists">
+                        <div class="card card-body bg-dark">
+                            <h4>Popular Artists</h4>
+                            <p>Eminem, OutKast, Beyonce, and more shaped the sound of the 2000s.</p>
+                            <img src="https://cntentertainment.com/wp-content/uploads/2020/04/Top-30-Most-Requested-Songs-2000s.jpg" alt="2000s Artists" style="max-width: 250px;">
+                        </div>
+                    </div>
+                    <div class="collapse" id="content2000sGenres">
+                        <div class="card card-body bg-dark">
+                            <h4>Genres</h4>
+                            <p>Hip Hop, Indie Rock, and Pop became defining genres of the decade.</p>
+                            <img src="https://www.musicgrotto.com/wp-content/uploads/2022/07/different-musical-instruments-and-styles-representing-different-genres.jpg" alt="2000s Genres" style="max-width: 250px;">
+                        </div>
+                    </div>
+                    <div class="collapse" id="content2000sTrends">
+                        <div class="card card-body bg-dark">
+                            <h4>Trends</h4>
+                            <p>The 2000s were known for the explosion of digital downloads and the influence of reality TV on music.</p>
+                            <img src="https://talk.payloadz.com/wp-content/uploads/2013/06/Music-Digital-Downloads-660x320.jpg" alt="2000s Trends" style="max-width: 250px;">
+                        </div>
+                    </div>
+                </div>
+            </section>        
+            <section id="2010s" style="background: url('https://wallpaperaccess.com/full/2742340.jpg') center/cover; padding: 50px; color: white;">
+                <!-- section with an aside -->
+                <div class="container mt-4">
+                    <div class="row">
+                        <!-- aside -->
+                        <aside class="col-md-4 order-md-1 order-2 bg-dark p-3">
+                            <h5>Fun Fact About 2010s Music</h5>
+                            <p>Did you know? The 2010s saw the rise of streaming platforms that changed how we listen to music!</p>
+                            <img src="https://www.hellotech.com/blog/wp-content/uploads/2021/06/best-music-streaming-service.jpg" alt="Streaming platform" style="max-width: 100%;">
+                        </aside>
+                        <div class="col-md-8 order-md-2 order-1 p-3">
+                            <div>
+                                <h3>Main Content - Music Highlights</h3>
+                                <p>The 2010s brought us a mix of electronic, pop, and hip-hop music that dominated the charts.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
             <section id="2020s">
                 <!-- 2020s content here -->
@@ -191,7 +245,7 @@
             </button>
         </div>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
 </html>
