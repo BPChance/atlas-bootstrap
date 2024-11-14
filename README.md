@@ -11,3 +11,6 @@ This project is a web page that takes users through a journey showcasing music t
 - HTML
 - Bootstrap
 - CSS
+
+## Link to page
+https://bpchance.github.io/atlas-bootstrap/
